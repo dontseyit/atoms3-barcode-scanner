@@ -2,6 +2,8 @@
 
 An implementation demonstrating M5Stack AtomS3 with Unit QRCode over I2C. Provides a working baseline for barcode and QR code scanning applications. Written in PlatformIO using Arduino.
 
+![IMG_8295](https://github.com/user-attachments/assets/6cd4b656-09dd-46fe-b655-37433717db68)
+
 ## Overview
 
 A plug-and-play barcode scanner implementation that integrates the M5Stack AtomS3 microcontroller with the M5Stack Unit QRCode scanner module via Atomic ToUnit Base I2C. The combination intentionally chosen for no cables setup and compact mount.
@@ -45,6 +47,9 @@ Direct plug-in connection, no cables required:
 ```
 AtomS3 + Atomic ToUnit Base ──► Unit QRCode (HY2.0-4P)
 ```
+
+![IMG_8296](https://github.com/user-attachments/assets/aa001dba-fd56-4b40-bd95-74498ba603ea)
+
 
 ### I2C Configuration
 
