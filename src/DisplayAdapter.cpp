@@ -17,10 +17,9 @@ void DisplayAdapter::showReadyScreen() {
     M5.Display.fillScreen(BLACK);
     M5.Display.setCursor(0, 0);
     M5.Display.setTextColor(WHITE);
-    M5.Display.println("Ready to scan");
+    M5.Display.println("Ready.");
     M5.Display.println("");
-    M5.Display.println("Press button");
-    M5.Display.println("on QRCode unit");
+    M5.Display.println("Press unit");
     M5.Display.println("to scan");
 }
 
@@ -55,8 +54,8 @@ void DisplayAdapter::showScannedData(const String& data) {
     M5.Display.fillScreen(BLACK);
     M5.Display.setCursor(0, 0);
     M5.Display.setTextColor(GREEN);
-    M5.Display.setTextSize(2);
-    M5.Display.println("SCAN OK");
+    M5.Display.setTextSize(DISPLAY_TEXT_SIZE*0.75);
+    M5.Display.println("SCANNED DATA");
     M5.Display.setTextSize(DISPLAY_TEXT_SIZE);
     M5.Display.setTextColor(WHITE);
     M5.Display.println("");

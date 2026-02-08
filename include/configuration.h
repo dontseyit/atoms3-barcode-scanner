@@ -16,7 +16,7 @@
 
 // Display Configuration
 #define DISPLAY_ROTATION 1
-#define DISPLAY_TEXT_SIZE 1
+#define DISPLAY_TEXT_SIZE 2
 
 // Serial Configuration
 #define SERIAL_BAUD_RATE 115200
