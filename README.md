@@ -34,9 +34,9 @@ The Unit QRCode supports
 
 | Component | Specification |
 |-----------|---------------|
-| **Controller** | M5Stack AtomS3 (ESP32-S3) |
-| **Scanner Module** | M5Stack Unit QRCode |
-| **Base Adapter** | Atomic ToUnit Base |
+| **Controller** | [M5Stack AtomS3](https://docs.m5stack.com/en/core/AtomS3) (ESP32-S3) |
+| **Scanner Module** | [M5Stack Unit QRCode](https://shop.m5stack.com/products/qr-code-scanner-unit-stm32f030) |
+| **Base Adapter** | [Atomic ToUnit Base](https://shop.m5stack.com/products/atomic-tounit-base) |
 
 ### Connection
 
